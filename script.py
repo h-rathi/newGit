@@ -238,7 +238,7 @@ async def save_amazon_htmls(
     urls,
     output_dir="outputs",
     cookies_file="amazon_cookies.json",
-    headless=False,
+    headless=True,
 ):
     """Loop over the list of URLs, save each HTML to a unique file, and update cookies once."""
     os.makedirs(output_dir, exist_ok=True)
@@ -414,7 +414,7 @@ async def save_bestbuy_htmls(
     urls,
     output_dir="outputs",
     cookies_file="bestbuy_cookies.json",
-    headless=False,
+    headless=True,
 ):
     """
     Loop over list of BestBuy URLs, save each page's HTML to output_dir,
@@ -571,7 +571,7 @@ async def save_samsung_htmls(
     urls,
     output_dir="outputs",
     cookies_file="samsung_cookies.json",
-    headless=False,
+    headless=True,
 ):
     """
     Loop over list of Samsung product URLs, save each page's HTML to output_dir,
@@ -698,19 +698,19 @@ async def main():
     ]
 
     print("\n=== Running Amazon scraper ===")
-    am_res = await save_amazon_htmls(amazon_urls, output_dir="outputs", cookies_file="amazon_cookies.json", headless=False)
+    am_res = await save_amazon_htmls(amazon_urls, output_dir="outputs", cookies_file="amazon_cookies.json", headless=True)
     print("\nAmazon Summary:")
     for r in am_res:
         print(r)
 
     print("\n=== Running BestBuy scraper ===")
-    bb_res = await save_bestbuy_htmls(bestbuy_urls, output_dir="outputs", cookies_file="bestbuy_cookies.json", headless=False)
+    bb_res = await save_bestbuy_htmls(bestbuy_urls, output_dir="outputs", cookies_file="bestbuy_cookies.json", headless=True)
     print("\nBestBuy Summary:")
     for r in bb_res:
         print(r)
 
     print("\n=== Running Samsung scraper ===")
-    sam_res = await save_samsung_htmls(samsung_urls, output_dir="outputs", cookies_file="samsung_cookies.json", headless=False)
+    sam_res = await save_samsung_htmls(samsung_urls, output_dir="outputs", cookies_file="samsung_cookies.json", headless=True)
     print("\nSamsung Summary:")
     for r in sam_res:
         print(r)
