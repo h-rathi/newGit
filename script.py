@@ -449,7 +449,23 @@ async def save_bestbuy_htmls(
                 try:
                     page = await context.new_page()
                     print(f"\n[BestBuy {idx}/{len(urls)}] Navigating to {url} ...")
-                    await page.goto(url, wait_until="load")
+
+
+                    try:
+
+                        await page.goto(url, wait_until="load")
+                    except TimeoutError as te:
+                        print(f"⚠️ 'load' timeout for {url} after 30s. Continuing anyway...")
+                        try:
+                            await page.wait_for_load_state("domcontentloaded", timeout=2000)
+                        except TimeoutError:
+                            pass
+                    
+
+
+
+
+
 
                     # Wait randomly for page content to settle
                     await human_delay(3, 6)
