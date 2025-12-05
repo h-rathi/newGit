@@ -696,21 +696,49 @@ async def main():
     "https://www.amazon.com/Samsung-Smartphone-Unlocked-Manufacturer-Warranty/dp/B0F7JRKGH1/ref=sr_1_3?crid=2IIQ350CABWC7&keywords=galaxy%2Bz%2Bfold%2B7",
     "https://www.amazon.com/Smartphone-Unlocked-Processor-Manufacturer-Warranty/dp/B0DP3G4GVQ/ref=sr_1_1_sspa?crid=10TW4LFRAIOBO&dib=eyJ2IjoiMSJ9.uqQhueQzsbHe8zENbFmj7bUk0vIwEpi-0APakuwi3hHMu2vGmVltlmCoeqExLjwwHe1NY_y-eiRAZze4TELqwF9A5Z3q2WMC2EPG0p4nD5aGis4NWae_K-CRmvy0IwyOTABmJrdT_nBArRg_3HUXEeD8RiVcw9SrqiFQb-CKPztbZuf4z8k2ncgbVn8qKqGMwy7rSG9Br5vXcD_F-IobKCrdhThEoUQ0RDqrmYpPZPI.EY_aE-DTUSHzDMHcvx2u1pDmmaEgKrcYAQ31_D796hk&dib_tag=se&keywords=s25%2Bultra&qid=1763542293&sprefix=s25%2Caps%2C425&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
     "https://www.amazon.com/Samsung-Smartphone-Unlocked-Manufacturer-Warranty/dp/B0F7K3FZ79/ref=sr_1_1_sspa?crid=ZFFPIZBZ98GJ&dib=eyJ2IjoiMSJ9.UCywTCyyKG4bvq7perU6WJwDnwocjQBoU_CBTt0iLEilFUxs7eGFZYXZpU_ioObwnwWuyf6rjjxKURGHvrFykwP0YDyTNEHIJ6iMdK6L--UC4Xf9otHkBAGnuMrKXhDVPrKXBcX3EASPQMHPmIxeZyAUQDkEAC7kjvwYOc851BfCkl7yfIKNjFbb5-rq1n_ZNuEDFncqGGsmuRczfLMtzrq4HfNQyihnc2SfvotrbB8.gsaBvxdWlghc5_yM6ADh4JkaCZsCGwTYiwGF4rklYiw&dib_tag=se&keywords=galaxy%2Bz%2Bflip%2B7&qid=1763542634&sprefix=galaxy%2Bz%2Bflip7%2B%2Caps%2C427&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
-    "https://www.amazon.com/SAMSUNG-Smartphone-Processor-ProScaler-Manufacturer/dp/B0DYVMVZSY/ref=sr_1_1_sspa?crid=18N7Z6JOQP2BV&dib=eyJ2IjoiMSJ9.nzLYfcsJ7KheFLAc8b9qkf36-GLK18wvNZAtoNJSu1Zuk0LTOxwvIqqD7blO0fqQDvGW1a_cFlDg5Nh6UJs25ksORtqvnynWCvMs3mnXvO49ZOy1Lc0OCa8xgu_zDwki3AucEZejB1tiHQzt8KYuAH3-YcGmTnO7s-Wn_1i_JPAcSstuLawUyqxRadquHocmToV-_PuNbtIeLyuTmsuGn88G4Hs_fJCfV7dzS_zI9l8.tjLmW8sTlnkCiJoCZPOQgL3qCTpiGvJ6gp9QKjm7R24&dib_tag=se&keywords=galaxy%2Bs25%2Bedge&qid=1763542733&sprefix=galaxy%2Bs25%2Bed%2Caps%2C351&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+    "https://www.amazon.com/SAMSUNG-Smartphone-Processor-ProScaler-Manufacturer/dp/B0DYVMVZSY/ref=sr_1_1_sspa?crid=18N7Z6JOQP2BV&dib=eyJ2IjoiMSJ9.nzLYfcsJ7KheFLAc8b9qkf36-GLK18wvNZAtoNJSu1Zuk0LTOxwvIqqD7blO0fqQDvGW1a_cFlDg5Nh6UJs25ksORtqvnynWCvMs3mnXvO49ZOy1Lc0OCa8xgu_zDwki3AucEZejB1tiHQzt8KYuAH3-YcGmTnO7s-Wn_1i_JPAcSstuLawUyqxRadquHocmToV-_PuNbtIeLyuTmsuGn88G4Hs_fJCfV7dzS_zI9l8.tjLmW8sTlnkCiJoCZPOQgL3qCTpiGvJ6gp9QKjm7R24&dib_tag=se&keywords=galaxy%2Bs25%2Bedge&qid=1763542733&sprefix=galaxy%2Bs25%2Bed%2Caps%2C351&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+    # "https://www.amazon.com/Samsung-Galaxy-America-SM-X930-SM-X930NZSAGTO/dp/B0FQKSCX2D/ref=sr_1_1?crid=3M1J0R493M49G&dib=eyJ2IjoiMSJ9.gl7sV5EmfcxLIXPuTsNfI7op0o_zOMo7gfDS2RBeRDauOS7q5VHVcvkwTTT0IZG-uVm80pmlYn8QxFoHJXj77LCR6SAqze32C5FkFT6b2LCma3NyZVHieIZPdE1gYzqsd2dpGUmcutT28tvpam9KfKaR61OBwhng8XVOKUIUAhdpovFq7bcDy2-e2HVcDWsoTl4NQBA8ox3ML2FkwpFZBFv2hbBlJWkYfN2t04lIO3E.obtlHz9d7cecPNUhBbVBtZbaggjQqd0Pw7lOv_ynn6U&dib_tag=se&keywords=Galaxy%2BTab%2BS11%2BUltra%2B14.6%22&qid=1764915926&sprefix=galaxy%2Btab%2Bs11%2Bultra%2B14.6%2B%2Caps%2C323&sr=8-1&th=1",
+    "https://www.amazon.com/Samsung-Android-Display-Performance-Note-Taking/dp/B0FKLRP6MT/ref=sr_1_2?crid=IRWTTSR9PD6Z&dib=eyJ2IjoiMSJ9.gl7sV5EmfcxLIXPuTsNfI7op0o_zOMo7gfDS2RBeRDbcUoXl9R3vqob2YHTCDrovf3-tNFlHFWJY8EqEh7VuTrCR6SAqze32C5FkFT6b2LCjp2-lRnlgcI7zmK9NpQGio14ileVGjyBZ1vJGWPU_CMwActHF5VFeoaLVOkSTa2ImkBLodJGj5yfcU61SB3t8x102OAYCHSsCddgonqJQ1py6Tc_2EYjh_DQeXvcIiHM.xyJFuQBGqB1Lu5oSYjpdPwvbs9I0AaP3lfRsXFrM1Rk&dib_tag=se&keywords=Galaxy%2BTab%2BS11%2B14.6%22&qid=1764916487&sprefix=galaxy%2Btab%2Bs11%2B14.6%2B%2Caps%2C333&sr=8-2&th=1",
+    #watch ultra
+    "https://www.amazon.com/Samsung-Smartwatch-Titanium-Advanced-Coaching/dp/B0F7PKN2C8/ref=sr_1_1?crid=3SRX0N61TD6U6&dib=eyJ2IjoiMSJ9.3IBJcvYi9CChdwEbJv-M0JI20M4KL5zbOWz0RW6vcq334Dh6E6cEn86tebR0SsocNdVg9Vfz46VEQQNuG0FZvlUMYb4SLKwoQttV0nLJndbo8nzwoJThK5IXghklqyVGNAOtTAZwtnHdRVq1_GR47W9jHBRbRgbZcCOJtIlTw3bv7sBEF30rVWSOj1HzU3u9OT6ijzvnY1rwufcUjvMQg1SE2zfvWhvMQaX5TjcMIXA.pDuCRtfVtzmqmKdh98pIvWKIqi58y6aAvqv8bK-zL3w&dib_tag=se&keywords=Galaxy%2BWatch%2BUltra%2B(2025)&qid=1764917703&sprefix=galaxy%2Bwatch%2Bultra%2B2025%2B%2Caps%2C882&sr=8-1&th=1",
+    #wath 8 classic SM-L505UZKQXAA
+    "https://www.amazon.com/Samsung-Smartwatch-Rotating-Coaching-Warranty/dp/B0F7PXV6LS/ref=sr_1_2?crid=WW4NH8L6HZ5D&dib=eyJ2IjoiMSJ9.o36AO3N47s3Xupf6NuDGv61Z4rvpJOACuIl3dwe0mWJ0gGpb4SVSC3Csts97aT6rEDWw8CVBbJWBGDZBSNe_2vUS6d1wDqkljvRc7cHxEjpiJV9TlurdkZ5VwalrTrZUybfCHWR62MbXfx0_afRxif_aQPBGg8n9Bkpqdc_X5NbATMA-XgQfEQC_d4LL4KFOwPucXN93zEnBlnIfHKHwShUQmQ9GpqY5BG1g1xDGX94.tQWQuCrpym1uKokkf5YaSGbpPmRqxcmusFnsff5EPDk&dib_tag=se&keywords=Galaxy%2BWatch8%2BClassic&qid=1764917793&sprefix=galaxy%2Bwatch8%2Bclassic%2Caps%2C515&sr=8-2&th=1",
+    #BUDS 3 PRON WHITE SM-R630NZWEXAR
+    "https://www.amazon.com/SAMSUNG-Cancelling-Optimization-Interpreter-Redesigned/dp/B0D9YZ1B72/ref=sr_1_1?crid=LJ1KR3LTUZ0E&dib=eyJ2IjoiMSJ9.RbhzvfQA2eVDyW4vfE0yGXTlxYjAlt6dRnFhE49E7T6W-msgtnudbY7NKvo-7QiJqrZTjSGZ85kWCjZDydIS7l6jl4-mMdixSPjOZ69VmMbMWfiBGx6zkz0srzaWl_uuq9-TnNpml7LpJ30oYhYhEfVvEwTCBrd12UXkjZgxoODGt4NPoxTUQ74GPuf9FXT3zPdefZaGSqqFZEc2wtDXCzuTevt2p8vfx2yMKoe7aUA.pj-hN56CVzQ5a7ygsRTxXrM89X2m8BYQD6TAFnVbwCI&dib_tag=se&keywords=Galaxy%2BBuds3%2BPro&qid=1764918515&sprefix=galaxy%2Bbuds3%2Bpro%2Caps%2C538&sr=8-1&th=1",
+
     ]
 
     bestbuy_urls = [
         "https://www.bestbuy.com/product/samsung-galaxy-z-fold7-512gb-unlocked-blue-shadow/JJGRF3XK3P",
         "https://www.bestbuy.com/product/samsung-galaxy-s25-ultra-512gb-unlocked-titanium-black/J3ZYG25H6J",
         "https://www.bestbuy.com/product/samsung-galaxy-z-flip7-512gb-unlocked-jet-black/JJGRF335X6",
-        "https://www.bestbuy.com/product/samsung-galaxy-s25-edge-512gb-unlocked-titanium-jet-black/JJGRF3CQKC"
+        "https://www.bestbuy.com/product/samsung-galaxy-s25-edge-512gb-unlocked-titanium-jet-black/JJGRF3CQKC",
+        # Tabs
+        # "https://www.bestbuy.com/product/samsung-galaxy-tab-s11-ultra-14-6-256gb-wi-fi-with-s-pen-gray/JJGRF39W23/sku/6641197",
+        "https://www.bestbuy.com/product/samsung-galaxy-tab-s11-11-512gb-wi-fi-with-s-pen-gray/JJGRF39W8Q",
+        #watch ultra
+        "https://www.bestbuy.com/product/samsung-galaxy-watch-ultra-titanium-smartwatch-47mm-lte-titanium-blue-2025/JJGRF3SQXX/sku/6635999",
+        #watch 8 classic SM-L505UZKAXAA
+        "https://www.bestbuy.com/product/samsung-galaxy-watch8-classic-stainless-steel-smartwatch-46mm-lte-black-2025/JJGRF32VWX",
+        #BUDS 3 PRO SM-R630NZWAXAR
+        "https://www.bestbuy.com/product/samsung-galaxy-buds3-pro-wireless-earbud-headphones-white/J3ZYG2KR7H/sku/6585613",
+
     ]
 
     samsung_urls = [
     "https://www.samsung.com/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-512gb-unlocked-sku-sm-f966udbexaa/",
     "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-ultra-512gb-unlocked-sku-sm-s938uzkexaa/",
     "https://www.samsung.com/us/smartphones/galaxy-z-flip7/buy/galaxy-z-flip7-512gb-unlocked-sku-sm-f766uzkexaa/",
-    "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-unlocked-sku-sm-s937uzkexaa/"
+    "https://www.samsung.com/us/smartphones/galaxy-s25-ultra/buy/galaxy-s25-edge-512gb-unlocked-sku-sm-s937uzkexaa/",
+    #tabs
+    # "https://www.samsung.com/us/tablets/galaxy-tab-s11/buy/galaxy-tab-s11-ultra-256gb-gray-wi-fi-sku-sm-x930nzaaxar/",
+    "https://www.samsung.com/us/tablets/galaxy-tab-s11/buy/galaxy-tab-s11-512gb-gray-wi-fi-sku-sm-x730nzaixar/",
+    #watch ultra
+    "https://www.samsung.com/us/watches/galaxy-watch-ultra-2025/buy/galaxy-watch-ultra-47mm-titanium-blue-sku-sm-l705uzb1xaa/",
+    #watch 8 classic sm-l505uzkaxaa
+    "https://www.samsung.com/us/watches/galaxy-watch8-classic/buy/galaxy-watch8-classic-46mm-black-lte-sku-sm-l505uzkaxaa/",
+    #BUDS 3 PRO sm-r630nzwaxar
+    "https://www.samsung.com/us/mobile-audio/galaxy-buds3-pro/buy/galaxy-buds3-pro-white-sm-r630nzwaxar/",
     ]
 
     print("\n=== Running Amazon scraper ===")
