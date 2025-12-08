@@ -8,12 +8,13 @@ This version additionally saves the run's result as a single row in an Excel fil
 - On next run the script appends a new row (does not overwrite previous data).
 Only code returned as requested.
 """
+import datetime
 import asyncio
 import json
 import os
 import random
 import re
-from datetime import datetime
+
 from urllib.parse import quote_plus
 from playwright.async_api import async_playwright, TimeoutError
 from bs4 import BeautifulSoup
@@ -764,7 +765,7 @@ async def main():
     # Keys format: "<site>_<index>_<keyname>" e.g. "amazon_1_url", "bestbuy_2_price"
     # -----------------------
     flat = {}
-    flat["run_timestamp"] = datetime.utcnow().isoformat() + "Z"
+    flat["run_timestamp"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
     # Amazon
     for i, item in enumerate(am_res, start=1):
         for k, v in item.items():
