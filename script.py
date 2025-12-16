@@ -96,10 +96,7 @@ def save_dict_to_excel_row(data: dict, excel_path: str = "outputs/results.xlsx")
 
     #making changes from here
     column_refs = [
-        "a","d","ar","x","e","as","y","blank column",
-        "i","aw","ac","j","ax","ad","blank column",
-        "n","bb","ah","o","bc","ai","blank column",
-        "s","bg","am","t","bh","an"
+        "blank","a","d","cf","ar","e","cg","as","blank","blank","blank","i","ck","aw","j","cl","ax","blank","blank","blank","n","cp","bb","o","cq","bc","blank","blank","blank","s","cu","bg","t","cv","bh","blank","blank","blank","x","cz","bl","y","da","bm","blank","blank","blank","ac","de","bq","ad","df","br","blank","blank","blank","ah","dj","bv","ai","dk","bw","blank","blank","blank","am","do","ca","an","dp","cb"
     ]
     new_sheet_base_name="SelectedColumns"
     source_sheet_name=None
