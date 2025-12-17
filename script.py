@@ -707,6 +707,22 @@ async def main():
     "https://www.amazon.com/Samsung-Smartwatch-Rotating-Coaching-Warranty/dp/B0F7PXV6LS/ref=sr_1_2?crid=WW4NH8L6HZ5D&dib=eyJ2IjoiMSJ9.o36AO3N47s3Xupf6NuDGv61Z4rvpJOACuIl3dwe0mWJ0gGpb4SVSC3Csts97aT6rEDWw8CVBbJWBGDZBSNe_2vUS6d1wDqkljvRc7cHxEjpiJV9TlurdkZ5VwalrTrZUybfCHWR62MbXfx0_afRxif_aQPBGg8n9Bkpqdc_X5NbATMA-XgQfEQC_d4LL4KFOwPucXN93zEnBlnIfHKHwShUQmQ9GpqY5BG1g1xDGX94.tQWQuCrpym1uKokkf5YaSGbpPmRqxcmusFnsff5EPDk&dib_tag=se&keywords=Galaxy%2BWatch8%2BClassic&qid=1764917793&sprefix=galaxy%2Bwatch8%2Bclassic%2Caps%2C515&sr=8-2&th=1",
     #BUDS 3 PRON WHITE SM-R630NZWEXAR
     "https://www.amazon.com/SAMSUNG-Cancelling-Optimization-Interpreter-Redesigned/dp/B0D9YZ1B72/ref=sr_1_1?crid=LJ1KR3LTUZ0E&dib=eyJ2IjoiMSJ9.RbhzvfQA2eVDyW4vfE0yGXTlxYjAlt6dRnFhE49E7T6W-msgtnudbY7NKvo-7QiJqrZTjSGZ85kWCjZDydIS7l6jl4-mMdixSPjOZ69VmMbMWfiBGx6zkz0srzaWl_uuq9-TnNpml7LpJ30oYhYhEfVvEwTCBrd12UXkjZgxoODGt4NPoxTUQ74GPuf9FXT3zPdefZaGSqqFZEc2wtDXCzuTevt2p8vfx2yMKoe7aUA.pj-hN56CVzQ5a7ygsRTxXrM89X2m8BYQD6TAFnVbwCI&dib_tag=se&keywords=Galaxy%2BBuds3%2BPro&qid=1764918515&sprefix=galaxy%2Bbuds3%2Bpro%2Caps%2C538&sr=8-1&th=1",
+    #other z fold7 storage sizes
+    #256gb Blue Shadow
+    "https://www.amazon.com/Samsung-Smartphone-Unlocked-Manufacturer-Warranty/dp/B0F7JZYWLL/ref=sr_1_3?crid=2IIQ350CABWC7&keywords=galaxy%2Bz%2Bfold%2B7&th=1",
+    # 256gb Jetblack
+    "https://www.amazon.com/Samsung-Smartphone-Unlocked-Manufacturer-Warranty/dp/B0F7K3FQN1/ref=sr_1_3?crid=2IIQ350CABWC7&keywords=galaxy%2Bz%2Bfold%2B7&th=1",
+    #256gb Silver Shadow
+    "https://www.amazon.com/Samsung-Smartphone-Unlocked-Manufacturer-Warranty/dp/B0F7JZXMQ7/ref=sr_1_3?crid=2IIQ350CABWC7&keywords=galaxy%2Bz%2Bfold%2B7&th=1",
+
+    #1tb zet black
+    "https://www.amazon.com/Samsung-Galaxy-Fold7-SM-F966U-Smartphone/dp/B0FK1XVXTB?ref_=ast_sto_dp",
+    #512gb zet black
+    "https://www.amazon.com/Samsung-Smartphone-Unlocked-Manufacturer-Warranty/dp/B0F7K9LFCL/ref=sr_1_3?crid=2IIQ350CABWC7&keywords=galaxy%2Bz%2Bfold%2B7&th=1",
+    #512gb silver shadow
+    "https://www.amazon.com/Samsung-Smartphone-Unlocked-Manufacturer-Warranty/dp/B0F7J243YH/ref=sr_1_3?crid=2IIQ350CABWC7&keywords=galaxy%2Bz%2Bfold%2B7&th=1",
+
+    
 
     ]
 
@@ -724,6 +740,18 @@ async def main():
         "https://www.bestbuy.com/product/samsung-galaxy-watch8-classic-stainless-steel-smartwatch-46mm-lte-black-2025/JJGRF32VWX",
         #BUDS 3 PRO SM-R630NZWAXAR
         "https://www.bestbuy.com/product/samsung-galaxy-buds3-pro-wireless-earbud-headphones-white/J3ZYG2KR7H/sku/6585613",
+        #256gb blue shadow
+        "https://www.bestbuy.com/product/samsung-galaxy-z-fold7-256gb-unlocked-blue-shadow/JJGRF3XK8C",
+        #256gb zet black
+        "https://www.bestbuy.com/product/samsung-galaxy-z-fold7-256gb-unlocked-jet-black/JJGRF3XKX4",
+        #256gb silver shadow
+        "https://www.bestbuy.com/product/samsung-galaxy-z-fold7-256gb-unlocked-silver-shadow/JJGRF3XK2Q",
+        #1tb zet black
+        "https://www.bestbuy.com/product/samsung-galaxy-z-fold7-1tb-unlocked-jet-black/JJGRF3XK25",
+        #512gb zet black
+        "https://www.bestbuy.com/product/samsung-galaxy-z-fold7-512gb-unlocked-jet-black/JJGRF3XKXR",
+        #512gb silver shadow
+        "https://www.bestbuy.com/product/samsung-galaxy-z-fold7-512gb-unlocked-silver-shadow/JJGRF3XK8Y",
 
     ]
 
@@ -741,6 +769,21 @@ async def main():
     "https://www.samsung.com/us/watches/galaxy-watch8-classic/buy/galaxy-watch8-classic-46mm-black-lte-sku-sm-l505uzkaxaa/",
     #BUDS 3 PRO sm-r630nzwaxar
     "https://www.samsung.com/us/mobile-audio/galaxy-buds3-pro/buy/galaxy-buds3-pro-white-sm-r630nzwaxar/",
+    # z fold7 other storage sizes
+    #256gb blue shadow
+    "https://www.samsung.com/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-256gb-unlocked-sku-sm-f966udbaxaa/",
+    #256gb Jetblack
+    "https://www.samsung.com/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-256gb-unlocked-sku-sm-f966uzkaxaa/",
+    #256gb silver shadow
+    "https://www.samsung.com/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-256gb-unlocked-sku-sm-f966uzsaxaa/",
+    #1tb zetblack
+    "https://www.samsung.com/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-1tb-unlocked-sku-sm-f966uzkfxaa/",
+    #512gb zet black
+    "https://www.samsung.com/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-512gb-unlocked-sku-sm-f966uzkexaa/",
+    #512gb silver shadow
+    "https://www.samsung.com/us/smartphones/galaxy-z-fold7/buy/galaxy-z-fold7-512gb-unlocked-sku-sm-f966uzsexaa/",
+    
+
     ]
 
     print("\n=== Running Amazon scraper ===")
