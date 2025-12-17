@@ -458,7 +458,7 @@ async def save_bestbuy_htmls(
                     except TimeoutError as te:
                         print(f"⚠️ 'load' timeout for {url} after 30s. Continuing anyway...")
                         try:
-                            await page.wait_for_load_state("domcontentloaded", timeout=2000)
+                            await page.wait_for_load_state("domcontentloaded", timeout=7000)
                         except TimeoutError:
                             pass
                     
