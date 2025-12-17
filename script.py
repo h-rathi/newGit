@@ -8,6 +8,7 @@ This version additionally saves the run's result as a single row in an Excel fil
 - On next run the script appends a new row (does not overwrite previous data).
 Only code returned as requested.
 """
+from zoneinfo import ZoneInfo
 import datetime
 import asyncio
 import json
@@ -269,6 +270,7 @@ async def save_amazon_htmls(
                     page = await context.new_page()
                     print(f"\n[Amazon {idx}/{len(urls)}] Navigating to {url} ...")
                     await page.goto(url, wait_until="load")
+                    await asyncio.sleep(10)  # Extra wait to ensure dynamic content loads
 
                     # Wait randomly for page content to settle
                     await human_delay(3, 6)
@@ -452,6 +454,7 @@ async def save_bestbuy_htmls(
                     try:
 
                         await page.goto(url, wait_until="load")
+                        await asyncio.sleep(10)  # extra wait to ensure stability
                     except TimeoutError as te:
                         print(f"⚠️ 'load' timeout for {url} after 30s. Continuing anyway...")
                         try:
@@ -519,6 +522,7 @@ async def wait_network_idle(page, timeout=15000):
     """Wait until network becomes idle (0 active requests)."""
     try:
         await page.wait_for_load_state("networkidle", timeout=timeout)
+        await asyncio.sleep(10)  # extra wait to ensure stability | not sure if this is the right approach
     except TimeoutError:
         print("⚠️ networkidle timeout — continuing anyway")
 
@@ -762,7 +766,10 @@ async def main():
     # Keys format: "<site>_<index>_<keyname>" e.g. "amazon_1_url", "bestbuy_2_price"
     # -----------------------
     flat = {}
-    flat["run_timestamp"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    utc_now = datetime.datetime.now(datetime.timezone.utc)
+    est_now = utc_now.astimezone(ZoneInfo("US/Eastern"))
+    #flat["run_timestamp"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    flat["run_timestamp"] = est_now.isoformat()
     # Amazon
     for i, item in enumerate(am_res, start=1):
         for k, v in item.items():
