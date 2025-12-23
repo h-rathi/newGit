@@ -527,13 +527,22 @@ async def wait_network_idle(page, timeout=15000):
         print("⚠️ networkidle timeout — continuing anyway")
 
 def extract_sku_from_url(url: str):
-    """Extract sku value from the given URL (looks for 'sku-<value>')."""
+    """Extract SKU value from the given URL (looks for 'sku-<value>' or 'sm-<value>')."""
     if not url:
         return None
+    
+    # Try to find sku- first
     m = re.search(r"sku-([A-Za-z0-9-]+)", url, re.IGNORECASE)
     if m:
         return m.group(1)
+    
+    # If not found, try to find sm-
+    m = re.search(r"(sm-[A-Za-z0-9-]+)", url, re.IGNORECASE)
+    if m:
+        return m.group(1)
+    
     return None
+
 
 def extract_price(filename):
     """Extract 512GB model price from saved HTML using BeautifulSoup."""
