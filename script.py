@@ -812,7 +812,8 @@ async def main():
     utc_now = datetime.datetime.now(datetime.timezone.utc)
     est_now = utc_now.astimezone(ZoneInfo("US/Eastern"))
     #flat["run_timestamp"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    flat["run_timestamp"] = est_now.isoformat()
+    # Format: 05 Dec 2025, 07:25
+    flat["run_timestamp"] = est_now.strftime("%d %b %Y, %H:%M")
     # Amazon
     for i, item in enumerate(am_res, start=1):
         for k, v in item.items():
