@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Merged scraper script: Amazon, BestBuy, Samsung
-Keeps each site's original logic (parsing, waits, mouse moves, cookie handling) intact.
+script for scraping product pages from Amazon, BestBuy, and Samsung using Playwright.
+- Saves each page's HTML to a unique file in outputs/ directory.
+- Parses each HTML to extract product price and model number (or SKU for Samsung).
+
 This version additionally saves the run's result as a single row in an Excel file:
 - Columns = keys (flattened per-site/per-index keys like "amazon_1_url")
 - Row = values for this run
 - On next run the script appends a new row (does not overwrite previous data).
-Only code returned as requested.
+
 """
 from zoneinfo import ZoneInfo
 import datetime
