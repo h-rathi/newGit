@@ -2,10 +2,10 @@
     "cookies": [
         {
             "name": "_GRECAPTCHA",
-            "value": "09AKhCRwhUesZATO0VkMq1v5mchChqt4nMsFD2LZP6qJOf4pCGyw6CAX7B4I0egkhiGA2gHv_ohQK5EfAwXT3Y0gg",
+            "value": "09AKhCRwja8IbcwaCTid_3ag1JSf21niRAKENVkfXC9Wdw66Yh8aj-SDhd4KrfUNX81C1z18tYBSzR42qmjHRwkz4",
             "domain": "www.google.com",
             "path": "/recaptcha",
-            "expires": 1786751237.071871,
+            "expires": 1786795097.064693,
             "httpOnly": true,
             "secure": true,
             "sameSite": "None"
@@ -477,86 +477,6 @@
             "sameSite": "Lax"
         },
         {
-            "name": "bby_rdp",
-            "value": "l",
-            "domain": ".bestbuy.com",
-            "path": "/",
-            "expires": 1771241601.493688,
-            "httpOnly": false,
-            "secure": false,
-            "sameSite": "Lax"
-        },
-        {
-            "name": "physical_dma",
-            "value": "807",
-            "domain": ".bestbuy.com",
-            "path": "/",
-            "expires": 1771241658.812792,
-            "httpOnly": false,
-            "secure": false,
-            "sameSite": "Lax"
-        },
-        {
-            "name": "customerZipCode",
-            "value": "95101|N",
-            "domain": ".bestbuy.com",
-            "path": "/",
-            "expires": 1771241658.812853,
-            "httpOnly": false,
-            "secure": false,
-            "sameSite": "Lax"
-        },
-        {
-            "name": "bm_ss",
-            "value": "ab8e18ef4e",
-            "domain": ".bestbuy.com",
-            "path": "/",
-            "expires": 1771202277.221362,
-            "httpOnly": true,
-            "secure": true,
-            "sameSite": "None"
-        },
-        {
-            "name": "bby_cbc_lb",
-            "value": "p-browse-w",
-            "domain": ".bestbuy.com",
-            "path": "/",
-            "expires": 1771199277.84729,
-            "httpOnly": false,
-            "secure": false,
-            "sameSite": "Lax"
-        },
-        {
-            "name": "lux_uid",
-            "value": "177119869652988329",
-            "domain": "www.bestbuy.com",
-            "path": "/",
-            "expires": 1771201027.960222,
-            "httpOnly": false,
-            "secure": false,
-            "sameSite": "Lax"
-        },
-        {
-            "name": "ak_bmsc",
-            "value": "63DF8F334AE4A14E0AB281A263B73417~000000000000000000000000000000~YAAQU6fLF/Et3yycAQAAjWSrYx5Go8uNTJ+Gyyg95HfPChf4gfx5mDjX77ZVy0osnOeIGCF5efCJl1RDtIpDVstW4VUqMnZ/zpk797dg/bvuCgvztyMVJMubX4V7uy3vgDtAxu/6CBwF6vr3WWtmQlG1joNaAICXDxoUb8IfJmNa/d08aX/Nju2xa2gaT45/LFG6VDHYmLReUKOx02hUogN3rVCOlCthbTPPF5EnNkkGyp+lJ3dG+jKXpmBuzk76+HGRWrhpeoFFHQiXsBMjfhT3RKR3Y2D8jTTivjsOSZaivHiIMLyC2riUsdFybh8vab9CGpZXAnsbBS9m8E8A9j2M3Mt5cIeAT/hUf/ELnUdIhrpxBpa1mgtHj3/RB1zdGsEk5Fzh5KdV/nNFUi8=",
-            "domain": ".bestbuy.com",
-            "path": "/",
-            "expires": 1771205902.730134,
-            "httpOnly": true,
-            "secure": false,
-            "sameSite": "Lax"
-        },
-        {
-            "name": "ltc",
-            "value": "%20",
-            "domain": ".bestbuy.com",
-            "path": "/",
-            "expires": 1771199840.088939,
-            "httpOnly": false,
-            "secure": false,
-            "sameSite": "Lax"
-        },
-        {
             "name": "AWSELB",
             "value": "73FF3FA910DB4629DCB8BC454A20F73297FBF2485D9A7C26A33B08AECA8619AE345869ACF3DB15329DD8663241230CEDC166E37A203E302F143828FDAE56707C92A66A023C",
             "domain": "www.bestbuy.com",
@@ -577,48 +497,118 @@
             "sameSite": "None"
         },
         {
+            "name": "bby_rdp",
+            "value": "l",
+            "domain": ".bestbuy.com",
+            "path": "/",
+            "expires": 1771328925.114736,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "bm_ss",
+            "value": "ab8e18ef4e",
+            "domain": ".bestbuy.com",
+            "path": "/",
+            "expires": 1771246125.114872,
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "bby_cbc_lb",
+            "value": "p-browse-e",
+            "domain": ".bestbuy.com",
+            "path": "/",
+            "expires": 1771243126.367704,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "lux_uid",
+            "value": "177124254468006905",
+            "domain": "www.bestbuy.com",
+            "path": "/",
+            "expires": 1771244887.667917,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "ak_bmsc",
+            "value": "70B8F450539E407BBC51EF068F44886F~000000000000000000000000000000~YAAQi4nMF5VSsF2cAQAA7XlIZh634MQxcA5fibRckD12LjUQbVEO+OD38HAUoIoTuvDRT172HY2qqbQVDJd/VYp9+tqj+TuNvIlnA1fCHQ6Y7zhKRtVlkOTSHiCafxenaOqaeVewntfTp0u3OnWPnftOj41aJSM/IaaPXQEe1L+shX6PPlZ0nvC+U7afXb+32y+6hK5SNJouUcLSRk0kcvEHzY7CmNhk0xcjgJbssp/Mjjy2AHQR/xZgCGemF4j4vTC+74kZpVZYM3n1iDArBPuZtgtRgRpu4LCacJXyczAqt5WJEdzub78Uy1MmDK4mBJRlfgNu8mBRIViFlMqg5UXbPUJXMIu2RWyEKUXROj9XCzj1YfrUQYJiWCI66AHn7qeHs7/YQdZhnPo0hTE=",
+            "domain": ".bestbuy.com",
+            "path": "/",
+            "expires": 1771249751.81156,
+            "httpOnly": true,
+            "secure": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "ltc",
+            "value": "%20",
+            "domain": ".bestbuy.com",
+            "path": "/",
+            "expires": 1771243699.404028,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "physical_dma",
+            "value": "560",
+            "domain": ".bestbuy.com",
+            "path": "/",
+            "expires": 1771328980.09372,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "customerZipCode",
+            "value": "23917|N",
+            "domain": ".bestbuy.com",
+            "path": "/",
+            "expires": 1771328980.093778,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "Lax"
+        },
+        {
             "name": "IDE",
-            "value": "AHWqTUncXzisWFKK5M4jnhEC3z81vTkvU-zPlo8-0F_rau07wUTRimcc6IqvulfkG4s",
+            "value": "AHWqTUmBFuhSY-vFsRWy_BYE976KE0RpVwnuNWZDxinAJobq6al_ZV-9Mo0gMLs_xKQ",
             "domain": ".doubleclick.net",
             "path": "/",
-            "expires": 1805758782.047209,
+            "expires": 1805802807.701234,
             "httpOnly": true,
             "secure": true,
             "sameSite": "None"
         },
         {
             "name": "bm_so",
-            "value": "EBBD4FA80B4825A6991571C2E3853792F5C740A45B8C0D798D9A5E5237E6A358~YAAQU6fLF0BJ4SycAQAA92azYwbOcEdPVQLLVdav1x0RbLsrPVEtTihNGaIJEa2HYf79R1p0iHvfZtO++cUJoWzR7nOQOtZUd1jMV1RwSSEw48l01JbB/DUVB6vMUqqlcTroYVNLY5uOoDaGnsi+8J0Ckm9HXoalwlA+4Dvagn+ZlR4xiFtbb4RMW8MVejIGbZEzuottccVhaiYATtXXYGnd/9cYBNLEsuplKxxQKmsXcIKFXf0qmTJX8ALe/4GkIbTKJ0X8aYHTDPmM+1QyQTC+lXUYwF0dzuMOUmx72eknPyKvZE4I+korUcAaqAj0mcHTzU+OnrPTZub8Z1VkaDubcPTkYf7kf9e1thMr6zr88L53D/JavzWHukuPxqyPjPJSFoFcceD4fCmfJmJPpSswh9ZaD4wPftp4JbKeO5s2KyaZjh+ZBrXP8z3tOvgyQfOE/8LD3wQh8VrulICBFQ==",
+            "value": "E2FC2806429BD40566F45EF0939AD5710DA8F82ADBAF91335E6029DD2BCA6CD0~YAAQi4nMF5sPtl2cAQAAqqVQZgavHdRzvgOGlFaNy5jA9a13vJGrVyDWgG4QeN66aP6eQZMJWWxi2xfP9k+1zg+6+joNQ1app8tS0E73Hy40lf4Pw4wBYCWVIoP51yLmYGWugIRmY1Rgz/BPRUmp02EcsrSbeG+50oh1XY/uDzjBksXOx9FSxe7Nx3jFsP4UVpToNAccDCsbkxzlXPGKWL/5jhGUTCkQrP0/w0Tq6pwzd6cO9QXfZHMjDBEh0Z+4OUYe6AUznBzwMQ8/TwLt/mZxxbKsQX/FP+WHQwK/pLhy1dA6r6Mhlykf4KUpIDGvE0fdxGz4pXcjVPUtH3mXaVMtjhgZ1Zehx76bYB72/GZVZoehEm/I5LWQT7sCl3RM+wxZghos3VgjmwUqjkp2q0+Q057ynwpNCzK35WmswGVKqPOBOK+a/4FxS365ol4EB7UH+JvgyrCDPC3eizPCfw==",
             "domain": ".bestbuy.com",
             "path": "/",
-            "expires": 1771285627.636936,
+            "expires": 1771329487.278463,
             "httpOnly": false,
             "secure": true,
             "sameSite": "Lax"
         },
         {
             "name": "bm_sz",
-            "value": "DEB2DD183D0F5957F593B145D48E908A~YAAQU6fLF0FJ4SycAQAA92azYx6aCZQIMniyT/06WhJazzixjcb3x1vWb832gZKanH/j54SL31Vg8MabCEiCBK4TQJRHuS2NBcxLTO2DzleMHwV17Op+GftXcmXiGDRgJ4HUwwDkDbmf3yL94vQ6n1FAZIULpyvaILU/T5MrF+V07oOOwoWC+RINW1MrnaMPwZHBO//JbWUdgT06L1p5sGMNzt0RCbi57z7VogIRZrqAVGsoIxK2dIH8rySrLRN7kiT+Ek0fI0SwLdgct1kJ8RSBgIggrhAIXxSyS+cp7hagKllGBH4rtSGCr98hjI9NQyffxwUhmTrJZbPpivymap1m8YH/kC7tFKbq+h/GhixWTudjJdVvoi6/sZW3qQivOcm2Gpz6ItxjMk5GGnFM5iqfvy7rMuYBbFqj3bWwkrxbOmNnsUTupw93oCOa6biJ1jqp1ydJt74gkSPnUc6+lg0rpfAcU533QHVrAgh35LToFYI33yFNribiyzKlyTaMbGGWoLZK58vihijva+c=~4338497~3556400",
+            "value": "12B0653425BE4AB65C59B2BA26D7525E~YAAQi4nMF5wPtl2cAQAAqqVQZh6y7k/IOCPAl1Rz0GN5istue2phSGmv9YVXftj2GfCxNW1WhQolGUSZSF0JxYXPXcgN+PtKu+G04Iag7BGf8VKOeIrXnBoiDpgzM+ra0hnj5cks3zaefRJgcd8OS4iV9uTPvtXI3ao5gPzO2soOF/FlpC/M8RxzKCbE9wejzrTAPS8iIk+PyGlJFK031e/1j+2D2z4wOIhmTrgzikHHCAvstuoO1FPn4pU5FyQPZF6doJXNhaxsNNGMFHIlNVgVcsvWQ/Rjvq2Dfqsb5Zfe83b0ip912Pyh+IUXo/nAGX1fREEjA6DuFvWRzILe8Mx1ytY8lpudW4K97+ZmaC+0PZdkiQv9lo7RDQOFFPxJu+T3yxh384/fk2ywvH6TZZyd7cOb02w79jjddW/zdJ7ZtDE7mSIul/dw1X2twOaLrIwon/qec7YhS1hnvJLqExJhlijIu3lFuj/RuvVDeWjKEGgnK1f+nOrQbi7O1i9b1itEinbXiGxQd5aGHso=~4535353~3425334",
             "domain": ".bestbuy.com",
             "path": "/",
-            "expires": 1771213066.63697,
+            "expires": 1771256915.278528,
             "httpOnly": false,
             "secure": false,
             "sameSite": "Lax"
         },
         {
-            "name": "rxvt",
-            "value": "1771201036675|1771198695592",
-            "domain": ".www.bestbuy.com",
-            "path": "/",
-            "expires": -1,
-            "httpOnly": false,
-            "secure": true,
-            "sameSite": "Lax"
-        },
-        {
             "name": "dtPC",
-            "value": "5$598695589_767h1p5$598723521_186h1p5$598981692_321h1vCBFRDUGHLHHNFHHQCMUGAVJLWBHEHUTS-0e0",
+            "value": "5$42544728_422h1p5$42569409_638h1p5$42616607_255h1p5$42829837_207h1vVTMBMEIUNUHTMPTKNCJCLRHPWCACEFCJ-0e0",
             "domain": ".www.bestbuy.com",
             "path": "/",
             "expires": -1,
@@ -628,27 +618,27 @@
         },
         {
             "name": "bm_lso",
-            "value": "EBBD4FA80B4825A6991571C2E3853792F5C740A45B8C0D798D9A5E5237E6A358~YAAQU6fLF0BJ4SycAQAA92azYwbOcEdPVQLLVdav1x0RbLsrPVEtTihNGaIJEa2HYf79R1p0iHvfZtO++cUJoWzR7nOQOtZUd1jMV1RwSSEw48l01JbB/DUVB6vMUqqlcTroYVNLY5uOoDaGnsi+8J0Ckm9HXoalwlA+4Dvagn+ZlR4xiFtbb4RMW8MVejIGbZEzuottccVhaiYATtXXYGnd/9cYBNLEsuplKxxQKmsXcIKFXf0qmTJX8ALe/4GkIbTKJ0X8aYHTDPmM+1QyQTC+lXUYwF0dzuMOUmx72eknPyKvZE4I+korUcAaqAj0mcHTzU+OnrPTZub8Z1VkaDubcPTkYf7kf9e1thMr6zr88L53D/JavzWHukuPxqyPjPJSFoFcceD4fCmfJmJPpSswh9ZaD4wPftp4JbKeO5s2KyaZjh+ZBrXP8z3tOvgyQfOE/8LD3wQh8VrulICBFQ==~1771199237189",
+            "value": "E2FC2806429BD40566F45EF0939AD5710DA8F82ADBAF91335E6029DD2BCA6CD0~YAAQi4nMF5sPtl2cAQAAqqVQZgavHdRzvgOGlFaNy5jA9a13vJGrVyDWgG4QeN66aP6eQZMJWWxi2xfP9k+1zg+6+joNQ1app8tS0E73Hy40lf4Pw4wBYCWVIoP51yLmYGWugIRmY1Rgz/BPRUmp02EcsrSbeG+50oh1XY/uDzjBksXOx9FSxe7Nx3jFsP4UVpToNAccDCsbkxzlXPGKWL/5jhGUTCkQrP0/w0Tq6pwzd6cO9QXfZHMjDBEh0Z+4OUYe6AUznBzwMQ8/TwLt/mZxxbKsQX/FP+WHQwK/pLhy1dA6r6Mhlykf4KUpIDGvE0fdxGz4pXcjVPUtH3mXaVMtjhgZ1Zehx76bYB72/GZVZoehEm/I5LWQT7sCl3RM+wxZghos3VgjmwUqjkp2q0+Q057ynwpNCzK35WmswGVKqPOBOK+a/4FxS365ol4EB7UH+JvgyrCDPC3eizPCfw==~1771243097129",
             "domain": ".www.bestbuy.com",
             "path": "/",
-            "expires": 1773791237,
+            "expires": 1773835097,
             "httpOnly": false,
             "secure": false,
             "sameSite": "Lax"
         },
         {
             "name": "bm_s",
-            "value": "YAAQGKfLF6RPpTCcAQAA55CzYwTz/kbjqtJEkzuUD0rOezoTXZyp7wMRFPK92nLzcZV9mUVp5uqz77pJ5+z1B/bTk+MGQBmEDqbSWm4nt8tZlPd8hR3q4txBUZ5qTMYnEz8PlQm4WJ0jArkSMZTyQqZwEAHzsuqjIZbPVKfcjxIP/8bTamkIJoKLESK+pVsBfp7mWly+Km2YXBU6smB9SKZ2FEhSq7E7Gexc1z32HWTF0f5lDZqgpfxGDIH4+zJ99bXp0FBs88eVTBj/B1VJLu5YQw1voNEsqBLAaJyg1dM8HuYOK08Ca9bX8J7CZf0VIgfic4jN7ZpSSiGyC4OaXMcp95V1+7ssCbg7QBA5boukU23xVS2nNJBKeX3OQszEV7HC47hOa5mglLLtEcrAiAoUNLyDNoMRoJaPdVPqnIa9fy8eFmlFfgp1p5NWrbngbB49w45bx+gy7BhSK9Pueq3jdgnI5FnkViIa99REoUt3VBY1PV4aWJBZ/Bd6eTxrGhyJjd0Fvv/d523m7XK9ICiwyMnooBsGXaw1EmaapoI0AHEQJXLloGa1nie8qQ==",
+            "value": "YAAQBN/aF4XCFSmcAQAA7tJQZgRSJbPbqwVfIlyxUnbPC/xv1XOGqLqx7Wy9v8SsX+UM4eorHdo/SeFqmfJ1GwWxSZmBfAwRAdzMJgjsUM03o6vIi8ljeJwMP9NTdGgz2eyfLOHZ+IX7uyCJrROjWUBtKNeTn05AtNmoynW0LmTtWwJ6B8zcjnFZZJYqybXHCHRiyhDKmRioe2ENEAw1V8lDE50M8abKBuInHjBumF5PRB3n9cnKgTsNPPj8mpgvK+tf/QMPndbR+E3VZRQLBL8VV/CiSzlKhSyc0nf0fACusbq4khRR7RzrqXjoGtNElYWuBVF22Sx72vtYjXR+IYpFQVBg4Di7wNJ17javMGN+n4c0bbAS2UuvM+GRlYw1Uyz9DGtdUx1cDFA1W2L7m43FaD/1/DgkFi5FPGooA/D4umJYBLmOIEO2+CndxIb7D3UP7Izgyi8ZkP+5osGlNeqsE1BlruEyY+A565eO3l6qhgHbdMFnTqWNNQ1Q+taXFIwsAXh8Sj7EAdvREowyWg/yE2PPVcryWvzwlq4KUuDlHAZoKNqBe52Pb1y11Q==",
             "domain": ".bestbuy.com",
             "path": "/",
-            "expires": 1773877638.377625,
+            "expires": 1773921498.887499,
             "httpOnly": true,
             "secure": true,
             "sameSite": "Lax"
         },
         {
             "name": "_cs_id",
-            "value": "0a400fc0-d9fd-aa0e-cc25-6bbe8ee4369b.1763975165.82.1771199245.1771198836.1645469968.1798139165431.1",
+            "value": "0a400fc0-d9fd-aa0e-cc25-6bbe8ee4369b.1763975165.83.1771243104.1771242733.1645469968.1798139165431.1",
             "domain": ".bestbuy.com",
             "path": "/",
             "expires": 1798139165,
@@ -658,20 +648,30 @@
         },
         {
             "name": "_cs_s",
-            "value": "10.0.0.1771201045436",
+            "value": "9.0.0.1771244904950",
             "domain": ".bestbuy.com",
             "path": "/",
-            "expires": 1771201045,
+            "expires": 1771244904,
             "httpOnly": false,
             "secure": false,
             "sameSite": "Lax"
         },
         {
             "name": "_abck",
-            "value": "D39FC8A8FE3087CB54C631DC16875065~-1~YAAQU6fLF9Rl4SycAQAARMmzYw9b3hVAfHbQHd0QIby+2Kgmg4H4NyWNO0WflRmfr54NM3haole6zxZ/awiQn7YqfLbUYODZ4dc2vxFKlk2SN6K4VLSbjJSdyRSnK4bUvdLPShbE04qvnG1kSU4Nqtxv2XHeB4JOMkQwcNs3yKhhNHNdIMAayqp2SPIiEsShpq+hMKrrvjs8LVb2PS5GXC7fGvg54b92v3YZRuWEdNceXOe5YRmume5ulKolixpZ2sS0fMQNAeQ4FfdpBo1ez6CkvgtRjcud0hn0nTBYREvAuNMSA1dMZgtRLF5EQEKhOLoXWD5bZ+57G8/+F1hQGeILU5jHjTnJZhZboAv375qWKzdw4Sb+oXJ36ByMP2DhgMkxEDiNOnF69yBspkOJuswszNXsteyoOuB/ius0SEpzkiDHB77UpQbhoiw2iGD0xTuGUIiMAwn3ypyBJP59QwzGFUI/QJ/VV+GM7JZCTSOJ7Jx5g8RqwqIbMSrjlfr3Bu0coUKf8Fv2vHZspltp+yywkZAzadzh8ttg2r2O+ZuGaUyvQRYGhuU2BxjOXNqwEWu1iIQtFwRtLbiVv9IYcp1njU7dwOLQnOSV5Dp833ZcGIOR0SPTz0rnSfLlgrG71iVijnJG1AKiRJ2JDusjFnJ019KCNPEbCr750aNXQanr2VujFQz1yTwq99T5IDMCnkr7QBZUGgpq9sDyulsyOzcx0KyyO+1bgg8ZkKfQf6zBkV/bAA==~-1~-1~1771202288~AAQAAAAF%2f%2f%2f%2f%2f7dlK8lTnOWLy8wjuAds8ULvEtxpFher1R9YQ7CEAoXvr91pnqizP1EjRbeaUZH5%2ffeyNAIxZzVzT%2fknBmWEJckAmckIbjf1xTiUhXoIlNDJ1P9c1ZxZLg%2faPSEweE72+y6i99zSXbU6f%2fuAsoGcqkroRGAk8AUdgyDwSs7oexhw3qTNT6Rwl2bJPyFqIHVSP99FQUixumN9~-1",
+            "value": "D39FC8A8FE3087CB54C631DC16875065~-1~YAAQi4nMF9lKtl2cAQAAPwxRZg9nSglhKcHa9SO9zxyDrzS6jmqukqOA2KcnmblnzsHO+3EQvEkgtzN5vkoaCOHtH61o2hyeK4odHVHNAL5bmdGUgUVB3nV2+RJmdd78t2uHkDCgVrffiPBxVMnPeYYY6o8L8OJ9AoJIc3oZPaPmEyBCAe5eWZkavSCtb+VKzcc1yo1K7cluU5a4rBw7iVae2tx5We2EQwwvJIWjiF5V4vy163gE7MF2QPkBuqU8mxns6yg/Ad0p5tpPbxfnTOfZf2ujDSDTzW/0KyLSCORsCqcYc5KxXwwOVCj5wFDYE9iOd/N3QQz+aGa5c9W/tua8IkV4UF1a/TzwtjiE25QyFYmz5NOitjCn5ZiQPBNaLcJmFvtv8800R93of2ydTbaYMhB1H3EhojUHL2V6Ej7n5OlOMyzn4NOAtOoX0OXb57NUcbKePghFMrn3NO+l/e1RwMosVs0lPzxgUDkofdfjyBNkG5hOdwFMitFnvKu1Y73YQU+iZ2pVzxlgzfKLKxtnfD5Sr/qQSX5Vzw79W5gp5QeXAd9+/MupCWGb1hs0ngZtuB+2QSHoW5C/0rG8Hwjv2h40rZiHvihMpeU4h8NHUJ3zICTCAIloEsTJVxWughbiua7UEtGsxAVWocXcgCDfVd8LbRbnjFgpFFqtoi/csFe3CaFMewu8wPsR2oxnfSleTRegspXceDGO7w0Kit/sFI+BdVx5epkGE9ihh6mJuXmUSQ==~-1~-1~1771246136~AAQAAAAF%2f%2f%2f%2f%2fxpNXL9iK2MhnDAnyTitGNHf5pfRLO0Jb6Olr6WeZtthQdG++klOsbh8odNF1hCrxUDZL709PLp177DJlL9ovL%2fs3Ctdz0iyRWsXtIC5vx9miKLzM2a85Y1OC2f2xgRlPdIX636%2fFvrnyhruqRHbaRCgaZRnfkAO4lEI5Ix01IqTZ7uUFXyoTT4T9IUewaQAUN0e36whImoE~-1",
             "domain": ".bestbuy.com",
             "path": "/",
-            "expires": 1802735252.802134,
+            "expires": 1802779113.539758,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "rxvt",
+            "value": "1771244919016|1771242544730",
+            "domain": ".www.bestbuy.com",
+            "path": "/",
+            "expires": -1,
             "httpOnly": false,
             "secure": true,
             "sameSite": "Lax"
@@ -690,10 +690,6 @@
                     "value": "[\"uidapi.com\",null,1764667242962,null,null,null,null,null,null,[100]]"
                 },
                 {
-                    "name": "e_BBY_SIGN_IN_TOAST_DISPLAYED",
-                    "value": "Mon Feb 16 2026 06:36:27 GMT-0500 (Eastern Standard Time)"
-                },
-                {
                     "name": "cto_bundle",
                     "value": "4l1N2F85S09FaTZzR3ZHMHhTczF6dXdQOXJZRENuaWVvUEJXdVpCOEJVZnE0VmZSRWZsdHRGdDhwdWJKWXlCN0FsV2xES0ZDRnVTc01hNHdEMXNKbHQ2MjJ0MGVCRDRiRXBhR01VMjJlbmhRQzNFbkdCdTZGUzVqemtnSzI4REs3NHNwaCUyRk1BUFBuWlFDb1dpckpBeHpTekZaQSUzRCUzRA"
                 },
@@ -703,7 +699,7 @@
                 },
                 {
                     "name": "gtag_sts",
-                    "value": "1771199236710"
+                    "value": "1771243096641"
                 },
                 {
                     "name": "BESTBUY_ENSIGHTEN_PRIVACY_TLD-www.bestbuy.com",
@@ -711,7 +707,7 @@
                 },
                 {
                     "name": "uccConfig_ExpireTime",
-                    "value": "1771213638904"
+                    "value": "1771257498534"
                 },
                 {
                     "name": "_GESPSK-esp.criteo.com",
@@ -727,7 +723,7 @@
                 },
                 {
                     "name": "_gcl_ls",
-                    "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":3010,\"timeouts\":0,\"creationTimeMs\":1771199236917},\"expires\":1778975236917}}"
+                    "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":3030,\"timeouts\":0,\"creationTimeMs\":1771243096889},\"expires\":1779019096889}}"
                 },
                 {
                     "name": "ruxitagent_0f4871fda9ce1d80_Store",
@@ -735,7 +731,7 @@
                 },
                 {
                     "name": "_grecaptcha",
-                    "value": "09AKhCRwgj-fI0_ixFfBI4yVpEaKRqAKbv-xJIzTm4viINKldVH7HRB18kuosYbumpWF6Ro1y3kKJBluh1XuBSyJLyaWkxL9XwDOzsGkFRYTYf8f4ys1zuUBCBmDThgOdq"
+                    "value": "09AKhCRwiNL6gRyyd3dXdfeCRRQy8zZfTNmwRmeimSYygesP5xp5rho0h7SATW862Ifo1YCWla9lphJgg83Yk2_7Iv8M5nB5QFNfDdt9MBCZr6F58o4O9zUP99W2tfbkwD"
                 },
                 {
                     "name": "connectId",
@@ -751,7 +747,7 @@
                 },
                 {
                     "name": "CSid",
-                    "value": "0a400fc0-d9fd-aa0e-cc25-6bbe8ee4369b.1763975165.82.1771199245.1771198836.1645469968.1798139165431.1~10.0.0.1771201045436~1~"
+                    "value": "0a400fc0-d9fd-aa0e-cc25-6bbe8ee4369b.1763975165.83.1771243104.1771242733.1645469968.1798139165431.1~9.0.0.1771244904950~1~"
                 },
                 {
                     "name": "CStagID",
@@ -767,7 +763,7 @@
                 },
                 {
                     "name": "cj_session_object",
-                    "value": "{\"sessionId\":\"c283281d-497e-4387-ad5f-f52fb3c4605c\",\"startTimestamp\":1771198766295,\"lastEvent\":1771199257358,\"sessionCount\":156}"
+                    "value": "{\"sessionId\":\"57a2f01a-f8dc-43d8-8ddb-81b3e2a819d2\",\"startTimestamp\":1771242617703,\"lastEvent\":1771243119008,\"sessionCount\":157}"
                 },
                 {
                     "name": "uccConfig",
@@ -780,10 +776,6 @@
                 {
                     "name": "ak_a",
                     "value": "D39FC8A8FE3087CB54C631DC16875065"
-                },
-                {
-                    "name": "d_BBY_SIGN_IN_TOAST_DISPLAYED",
-                    "value": "{\"meta\":{\"CreatedAt\":\"2026-02-15T11:36:27.592Z\",\"ModifiedAt\":\"2026-02-15T11:36:27.592Z\",\"ExpiresAt\":\"2026-02-16T11:36:27.592Z\"},\"value\":true}"
                 },
                 {
                     "name": "Interruptions-Manager-Business-Rules",
@@ -804,7 +796,7 @@
                 },
                 {
                     "name": "rc::f",
-                    "value": "0aABtgWgjEiWUHoH-TVyE__pw5G77WnX0FDrn_ysUmJILxfKUhDZKCta6t7lc26Fy_rsN-Fpg"
+                    "value": "0aABtgWgjlYjYuS6sgEdv3nNZTEnjIOWkOKHL8uoTJi450gKuG2C_NlyBS9UgzOr6-J83yToM"
                 }
             ]
         }
